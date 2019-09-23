@@ -24,6 +24,7 @@ dependencies {
 jar {
     manifest {
         attributes 'Main-Class': mainClassName
+        zip64   true
     } from {
         configurations.compile.collect {
             it.isDirectory() ? it : zipTree(it)
