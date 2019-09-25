@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 
 public final class GeoIPService {
 
-  private static final String MAXMINDDB = "/path_to_your_GeoLiteCity.dat_file";
+  private static final String MAXMINDDB = "home/scrapbook/tutorial/kafka/GeoIP.dat";
 
   public Location getLocation(String ipAddress) {
     try {

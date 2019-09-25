@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 
 public final class OpenExchangeService {
 
-  private static final String API_KEY = "YOUR_API_KEY_VALUE_HERE";  //1
+  private static final String API_KEY = "c13c242547e040dc866cb70fbc07cd65";  //1
   private static final ObjectMapper MAPPER = new ObjectMapper();
 
   public double getPrice(String currency) {
