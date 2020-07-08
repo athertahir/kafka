@@ -29,9 +29,8 @@ public class ProcessingEngine {
 
     Reader reader = new Reader(servers, groupId, sourceTopic);
 
-    //Validator validator = new Validator(servers, validTopic, invalidTopic);
-    Enricher enricher = new Enricher(servers, validTopic, invalidTopic);
-    reader.run(enricher);
+    Validator validator = new Validator(servers, validTopic, invalidTopic);
+    reader.run(validator);
 
   }
 }
