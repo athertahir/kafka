@@ -22,8 +22,9 @@ cd $HOME/kafka
 # wget http://www-us.apache.org/dist/kafka/1.1.0/kafka_2.12-1.1.0.tgz
 # Updated v1.3-3
 #wget http://www-us.apache.org/dist/kafka/1.1.1/kafka_2.12-1.1.1.tgz
+#wget http://www-us.apache.org/dist/kafka/2.2.1/kafka_2.12-2.2.1.tgz
 
-wget http://www-us.apache.org/dist/kafka/2.2.1/kafka_2.12-2.2.1.tgz
+wget http://www-us.apache.org/dist/kafka/2.2.2/kafka_2.12-2.2.2.tgz
 
 mv *.tgz  kafka.tgz
 
